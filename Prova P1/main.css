@@ -1,0 +1,373 @@
+/*Body*/
+body{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 30px;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: auto;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+/*caracteristicas do header*/
+header{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  margin-bottom: 30px;
+  display: inline-grid;
+  width: 100%;
+  /*background-color: rgb(220,220,220);*/
+}
+/*imagem do topo*/
+header img{
+  grid-row-end: 2; /*2 elementos no header*/
+  grid-column-end: 1;
+  float: left;
+  margin-top: 10px;
+  width: 220px;
+}
+/*posições dos navs*/
+.upper_nav{
+  grid-column-start: 2;
+  grid-column-end: 2;
+  display: grid;
+  float: right;
+}
+.nav1{
+  display: block;
+  float: right;
+  text-align: right;
+}
+/*ajustar a posição da pesquisa do header*/
+.nav2{
+  display: block;
+  float: right;
+  text-align: right;
+}
+/*posicionar o segundo menu do header*/
+.nav3{
+  margin-top: 20px;
+
+  float: right;
+  width: auto;
+  text-align: right;
+}
+/*caracteristicas da | no primeiro menu e no menu do footer*/
+.vertical_bar{
+  margin-left: 10px;
+
+  font-size: 1.8em;
+  font-weight: bold;
+}
+/*menu do topo*/
+.nav1 ul{
+  padding: 0;
+  width: auto;
+  display: block;
+}
+header .nav1 ul li{
+  display: inline-block;
+  padding: 2px;
+  vertical-align: middle;
+}
+/*cor do texto e da decoração do header e da parte esquerda do footer*/
+header .nav1 a, .nav2 a, .footer_left a{
+  color: rgb(0, 100, 180);
+  text-decoration-color: rgb(0, 0, 100);
+  vertical-align: super;
+}
+/*letra a do topo*/
+header .nav1 ul li .a_bold{
+  font-weight: bold;
+  font-size: 1.2em;
+}
+/*letra a do topo*/
+header .nav1 ul li .a_blackbox{
+  padding: 2px;
+  background-color: black;
+
+  color: white;
+  font-size: 1.2em;
+}
+/*tamanho das barras de pesquisa*/
+.nav2 button, input{
+  padding: 2px 6px 2px 6px;
+}
+/*sombra do botão de pesquisa*/
+.shadow{
+  box-shadow: 3px 3px 3px 1px;
+}
+/*posição do botão Find a School*/
+#box1{
+  margin-right: 25px;
+}
+/*configs gerais do menu retangular do header e da primeira coluna*/
+.nav3 ul li, .sec_left1 ul a{
+  display: inline-block;
+  list-style: none;
+  background-color: white;
+  color: black;
+
+  margin-top: 10px;
+  padding: 1px 0px 4px 0px;
+  border: 3px black solid;
+  width: 215px;
+
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+/*configs gerais dos 2 menus*/
+.nav3 ul, .sec_left1 ul{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+/*propriedades da primeira coluna*/
+.column1{
+  width: 246px;
+}
+/*Definir o tamanho da imagem do primeiro section*/
+.sec_left1 img{
+  width: 100%;
+}
+/*espaçamento entre a imagem e menu da primeira coluna*/
+.sec_left1 ul, .sec_left2{
+  margin-top: 30px;
+}
+/*menu retangular do section*/
+.sec_left1 ul a{
+  display: block;
+  padding: 1px 0px 4px 5px;
+  width: 96%;
+
+  text-align: left;
+  font-size: 1em;
+}
+.sec_left2{
+  width: 100%;
+}
+/*mudar um pouco para a direita a posicao do H2*/
+.sec_left2 h2{
+  margin: auto 0px 0px 5px;
+}
+/*propriedades da caixa de texto abaixo de Most Popular*/
+.sec_left2 ul{
+  display: block;
+  margin-top: 3px;
+  padding: 5px 10px 5px 10px;
+  border: 3px solid black;
+  background-color: rgb(240,240,240);
+
+  width: 90%;
+  list-style: none;
+  text-decoration: none;
+}
+/*mudar as configurações do texto do segundo elemento da primeira coluna*/
+.sec_left2 ul a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-size: 0.9em;
+}
+/*colorir o fundo de cada elemento das colunas*/
+.sec_middle1, .sec_middle2, .sec_middle3, .sec_right1, .sec_right2, .sec_right3{
+  background-color: rgb(220,220,220);
+}
+/*Definir o tamanho do botao play, pause, next, previous*/
+.button_icon{
+  width: 24px;
+}
+/*propriedades da segunda coluna*/
+.aside1{
+  /*background-color: rgb(240,240,240);*/
+  width: 600px;
+}
+/*Espaçamento dos containers dentro da segunda coluna*/
+.sec_middle1, .sec_middle2, .sec_middle3{
+  padding: 1px 20px 20px 20px;
+  margin-bottom: 30px;
+}
+/*Posição da parte direita ao titulo*/
+.title a, .title img{
+  float: right;
+}
+/*Criar um design padrão pros titulos dos sections*/
+.title a{
+  margin-left: 10px;
+
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+/*distancia do artigo principal em relaçao aos outros*/
+.main_content{
+  margin: auto;
+  height: 140px;
+  display: block;
+}
+/*tamanho da letra do titulo do artigo principal*/
+.main_content a{
+  font-size: 1em;
+}
+/*criar um design padrão pras descricoes dos sections que contém link*/
+.content a{
+  display: block;
+
+  font-size: 0.9em;
+  font-weight: bold;
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+/*posição da imagem do article principal*/
+.content .article_img{
+  margin: 0 20px 0 10px;
+  float: left;
+}
+/*posição do texto linkado do article*/
+.content p{
+  margin: 0px;
+  padding: 0px;
+
+  width: 85%;
+
+  text-align: justify;
+  font-size: 0.9em;
+}
+/*design do paragrafo onde se apresenta as datas dos artigos*/
+#date{
+  margin-right: 15px;
+  display: block;
+  width: auto;
+  height: 95px;
+  float: left;
+
+  text-align: right;
+}
+/*encaixar os elementos da segunda coluna na segunda parte alinhados um após o outro*/
+.sec_middle2 .content p{
+  display: inline-block;
+}
+/*ajeitar a posição dos botões para um ficar acima e o outro abaixo*/
+.content .side_buttons{
+  display: block;
+  width: auto;
+  float: right;
+}
+/*ajuste da terceira coluna*/
+.aside2{
+  width: 286px;
+  /*background-color: rgb(240,240,240);*/
+}
+/*Os elementos da coluna direita precisam do mesma distancia do da esquerda*/
+.sec_right1, .sec_right2, .sec_right3{
+  margin-bottom: 30px;
+}
+/*configurações do primeiro elemento da terceira colunas*/
+.sec_right1{
+  width: 100%;
+
+  position: relative;
+  display: block;
+}
+/*ajustar o tamanho do 'a' e da imagem de fundo*/
+.sec_right1 a, .sec_right1 img{
+  display: block;
+  width: 100%;
+}
+/*ajuste do texto do artigo*/
+.sec_right1 .content{
+  display: block;
+  position: relative;
+  margin-top: -65%;
+  background-color: rgba(220, 220, 220, 0.5);
+
+  float: right;
+  width: 95%;
+}
+/*ajustes do espaço dentro da "caixa cinza"*/
+.sec_right1 h2, .sec_right1 p{
+  margin: 8px;
+  width: auto;
+  text-align: justify;
+}
+/*configurações do segundo e terceiro elementos da terceira coluna*/
+.sec_right2, .sec_right3{
+  display: inline-block;
+  position: relative;
+  background-color: rgb(220,220,220);
+
+  width: 100%;
+}
+/*ajustes gerais das imagens do segundo e terceiro elementos da terceira coluna*/
+.sec_right2 img, .sec_right3 img{
+  position: relative;
+  float: left;
+  padding: 2% 2% 2% 2%;
+  display: inline-block;
+  width: 35%;
+}
+/*ajustes gerais dos titulos do segundo e terceiro elementos da terceira coluna*/
+.sec_right2 h2, .sec_right3 h2{
+  margin: 7% 3% 0% 0%;
+  float: right;
+
+  width: 55%;
+  font-size: 1.41em;
+  text-align: justify;
+}
+/*hr*/
+hr{
+  display: block;
+  border: 1px solid black;
+  width: 100%;
+}
+/*configurações gerais do footer*/
+footer{
+  display: inline-block;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  width: 100%;
+
+  font-size: 0.9em;
+}
+/*remoção da bolinha de lista do footer e colocar como linha reta*/
+.footer_left ul li{
+  margin-right: 7px;
+  display: inline-block;
+}
+/*definir posição e tamanho do lado esquerdo do footer*/
+.footer_left, .footer_left ul{
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+/*Posicionar corretamente o meio do footer*/
+.footer_middle{
+  margin-left: 41.5%;
+  position: absolute;
+}
+/*ajuste do elemento do elemento de retornar ao topo da pagina*/
+.footer_middle a{
+  display: block;
+  margin-left: 25%;
+  padding: 0px 1% 0px 1%;
+  width: 50%;
+  height: 30px;
+
+  border: 1px solid black;
+  border-radius: 20%;
+
+  color: black;
+  font-weight: 1000;
+  text-align: center;
+  text-decoration: none;
+  font-size: 3em;
+}
+/*ajustes dos elementos da direita do footer*/
+.footer_right, .footer_right p{
+  margin-bottom: 0;
+  padding: 0;
+  float: right;
+}
