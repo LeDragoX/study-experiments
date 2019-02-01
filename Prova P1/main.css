@@ -104,11 +104,10 @@ header .nav1 ul li .a_blackbox{
   margin-right: 25px;
 }
 /*configs gerais do menu retangular do header e da primeira coluna*/
-.nav3 ul li, .sec_left1 ul a{
+.nav3 ul li, .sec_left1 ul li{
   display: inline-block;
   list-style: none;
   background-color: white;
-  color: black;
 
   margin-top: 10px;
   padding: 1px 0px 4px 0px;
@@ -116,7 +115,6 @@ header .nav1 ul li .a_blackbox{
   width: 215px;
 
   text-align: center;
-  text-decoration: none;
   font-size: 1.1em;
   font-weight: bold;
 }
@@ -125,6 +123,10 @@ header .nav1 ul li .a_blackbox{
   padding: 0;
   margin: 0;
   width: 100%;
+}
+.nav3 ul li a, .sec_left1 ul li a{
+  color: black;
+  text-decoration: none;
 }
 /*propriedades da primeira coluna*/
 .column1{
@@ -140,13 +142,15 @@ header .nav1 ul li .a_blackbox{
   margin-top: 30px;
 }
 /*menu retangular do section*/
+.sec_left1 ul li{
+  width: 98%;
+}
 .sec_left1 ul a{
   display: block;
   padding: 1px 0px 4px 5px;
   width: 96%;
 
   text-align: left;
-  font-size: 1em;
 }
 .sec_left2{
   width: 100%;
@@ -215,6 +219,9 @@ header .nav1 ul li .a_blackbox{
   margin: auto;
   height: 140px;
   display: block;
+}
+.main_content img{
+  width: 120px;
 }
 /*tamanho da letra do titulo do artigo principal*/
 .main_content a{
@@ -381,7 +388,7 @@ footer{
 }
 /*Posicionar corretamente o meio do footer*/
 .footer_middle{
-  margin-left: 41.5%;
+  margin-left: 41.5vw;
   position: absolute;
 }
 /*ajuste do elemento do elemento de retornar ao topo da pagina*/
