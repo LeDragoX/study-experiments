@@ -252,7 +252,7 @@ header .nav1 ul li .a_blackbox{
   font-size: 0.9em;
 }
 /*design do paragrafo onde se apresenta as datas dos artigos*/
-#date{
+#date1, #date2{
   margin-right: 15px;
   display: block;
   width: auto;
