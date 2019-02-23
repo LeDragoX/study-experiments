@@ -20,7 +20,7 @@ function ParImpar(){
 function VerEmail(){
 	var palavra = prompt("Digite algo para verificar se é um email:");
 	var pattern = /\w@\w+.\w/;
-	alert(palavra.search(pattern));
+	var cond = (palavra.search(pattern)==-1)? alert("Email Inválido!") : alert("Email Válido!");
 
 	console.log("String: " + palavra);
 }
