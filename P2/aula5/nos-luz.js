@@ -3,7 +3,7 @@ function load() {
   document.getElementById("item").addEventListener("submit", addItem)
 }
 
-function addItem(e){
+function addItem(e) {
   e.preventDefault();
   li = document.createElement('li');
   li.appendChild(document.createTextNode(document.getElementById("texto").value));
@@ -14,9 +14,9 @@ function luz() {
   img = document.getElementById("luz");
   if (!acesa) {
     acesa = true;
-    img.src = "lampada_on.gif";
-  }else{
+    img.src = "lampada-on.gif";
+  } else {
     acesa = false;
-    img.src = "lampada_off.gif";
+    img.src = "lampada-off.gif";
   }
 }
