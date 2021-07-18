@@ -23,8 +23,8 @@ My university's homeworks from *HyperMedias* ( HTML/CSS/JS )
 
 1. Palindrome - https://ledragox.github.io/P2/aula1/
 2. Factorial, Even & Odd Numbers and E-mail validation - https://ledragox.github.io/P2/aula2/
-3. https://ledragox.github.io/P2/aula3/
-4. https://ledragox.github.io/P2/aula4/
-   1. https://ledragox.github.io/P2/aula4/aula-4b
-5. https://ledragox.github.io/P2/aula5/
-   1. https://ledragox.github.io/P2/aula5/aula-5b
+3. Me failing in OOP - https://ledragox.github.io/P2/aula3/
+4. Online Calculator - https://ledragox.github.io/P2/aula4/
+   1. Show typed text - https://ledragox.github.io/P2/aula4/aula-4b
+5. Hide and Show Content - https://ledragox.github.io/P2/aula5/
+   1. Add item list and Turn lamp On/Off https://ledragox.github.io/P2/aula5/aula-5b
