@@ -2,12 +2,12 @@
 
 ## College
 
-- College: https://ledragox.github.io/from-college
+- College: [>> LINK <<](https://ledragox.github.io/from-college)
 
 ## Courses
 
-- Courses: https://ledragox.github.io/from-courses
+- Courses: [>> LINK <<](https://ledragox.github.io/from-courses)
 
 ## Events
 
-- Events: https://ledragox.github.io/from-events
+- Events: [>> LINK <<](https://ledragox.github.io/from-events)
