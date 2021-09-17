@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tables</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <header><h1>Top</h1></header>
+        <nav>
+            <a href="index.html">This Page</a>
+        </nav>
+        <hr>
+        <!-- Content that actually changed -->
+        <section>
+            <!-- Don't use 'border' on HTML5, it's deprecated, it's here to demonstrate how table works -->
+            <h2>Table 1</h2>
+            <table border="1">
+                <tr>
+                    <td>Line 1, Column 1</td>
+                    <td rowspan="2">Line 1, Column 2</td>
+                </tr>
+                <tr>
+                    <td>Line 2, Column 1</td>
+                    <td>Line 2, Column 2</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Line 3</td>
+                </tr>
+            </table>
+
+            <h2>Another Table</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Month</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+
+                <tfoot>
+                    <tr>
+                        <td>Total</td>
+                        <td>R$ 800</td>
+                    </tr>
+                </tfoot>
+
+                <tbody>
+                    <tr>
+                        <td>January</td>
+                        <td>R$ 500</td>
+                    </tr>
+                    <tr>
+                        <td>February</td>
+                        <td>R$ 300</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <hr>
+        <footer>Bottom</footer>
+    </body>
+</html>

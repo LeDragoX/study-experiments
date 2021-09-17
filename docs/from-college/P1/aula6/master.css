@@ -1,0 +1,85 @@
+body{
+  background-color: inherit;
+  background-repeat:repeat;
+  background-image: url(https://br.grandchase.net/favicon/ogp.png);
+  background-attachment:fixed;
+  background-position: 50%, 50%;
+  text-align: center;
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+
+}
+
+div.box{
+  width: 200px;
+}
+
+h1, h2{
+  text-align: center;
+  font-style: oblique;
+  font-weight: lighter;
+  font-size: 40px;
+  font-family: 'Noto Sans SC', sans-serif;
+
+  border-style: inset;
+
+  border-radius: 150px 10px 150px 10px;
+  -moz-border-radius: 150px 10px 150px 10px;
+  -webkit-border-radius: 150px 10px 150px 10px;
+  border: 8px solid #000000;
+}
+
+p{
+  text-decoration:underline;
+  letter-spacing: normal;
+  text-transform: capitalize;
+  font-family: 'Poppins', sans-serif;
+  font-size: 110%;
+}
+
+.azul{
+  color: blue;
+}
+
+.amarelo{
+  color: yellow;
+}
+
+.cinza{
+  color: gray;
+}
+
+.marrom{
+  color: brown;
+}
+
+.verde{
+  color: green;
+}
+
+.roxo{
+  color: purple;
+}
+
+h1::before{
+  content: url(https://vignette.wikia.nocookie.net/grandchase/images/7/7e/Astarothjr.gif/revision/latest?cb=20120608154303&path-prefix=pt-br);
+}
+
+p:hover{
+  background-color: white;
+}
+
+.verde::after{
+  content: url(https://vignette.wikia.nocookie.net/grandchase/images/9/90/Provocar_azin.gif/revision/latest?cb=20121113233139&path-prefix=pt-br);
+}
+
+.cinza:focus{
+  color: rgb(0, 0, 0);
+}
+
+.amarelo::after{
+  content: url(https://i.imgur.com/MdjIKZS.gif);
+}

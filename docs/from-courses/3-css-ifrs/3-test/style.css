@@ -1,0 +1,10 @@
+.caixa {
+    height: 100px;
+    width: 200px;
+}
+#caixa1 {
+   background-color: blue;
+}
+#caixa2 {
+   background-color: red;
+}

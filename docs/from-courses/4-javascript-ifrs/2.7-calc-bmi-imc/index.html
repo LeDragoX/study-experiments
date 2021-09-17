@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>JavaScript</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="logic.js"></script>
+    </head>
+    <body>
+        <header><h1>Top</h1></header>
+        <nav>
+            <ul>
+                <li><a href="index.html">1st Page</a></li>
+            </ul>
+        </nav>
+        <hr>
+        <!-- Content that actually changed -->
+        <section>
+            <h2>My first page using JavaScript</h2>
+            <form action="#">
+                <fieldset>
+                    <legend>BMI Calculator</legend>
+                    <label for="weight">Weight (Kg): *</label>
+                    <input type="text" id="weight" weight="weight" placeholder="70" required>
+                    <br>
+                    <label for="height">Height (m): *</label>
+                    <input type="text" id="height" height="height" placeholder="1.80"  required>
+                    <br>
+                    <button type="submit" onclick="calcBmi()">Send</button>
+                    <button type="reset">Reset</button>
+                </fieldset>
+            </form>
+            <h2>Logs</h2>
+            <p id="js-content"></p>
+        </section>
+        <hr>
+        <footer>Bottom</footer>
+    </body>
+</html>
