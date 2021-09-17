@@ -64,7 +64,8 @@ p {
   color: purple;
 }
 
-h1::before {
+h1::after {
+  display: block;
   content: url(https://vignette.wikia.nocookie.net/grandchase/images/7/7e/Astarothjr.gif/revision/latest?cb=20120608154303&path-prefix=pt-br);
 }
 
