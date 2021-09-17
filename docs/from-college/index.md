@@ -1,3 +1,5 @@
+<div align="center">
+
 ## College P1 - HTML & CSS
 
 | Activities                        | Link                       |
@@ -14,12 +16,7 @@
 | 6.2. Vertical Menu:               | [Link](./P1/aula6/aula-6b) |
 | 7.1. Horizontal Menu:             | [Link](./P1/aula7/)        |
 | 7.2. My First Site:               | [Link](./P1/aula7/aula-7b) |
-
-### College P1 - Test
-
-| Test     | Link                     |
-| :------- | :----------------------- |
-| P1 Test: | [Link](./P1/Prova%20P1/) |
+| P1 Test:                          | [Link](./P1/Prova%20P1/)   |
 
 ## College P2 - JavaScript
 
@@ -32,3 +29,5 @@
 | 4.2. Show typed text:                                   | [Link](./P2/aula4/aula-4b) |
 | 5.1. Hide and Show Content:                             | [Link](./P2/aula5/)        |
 | 5.2. Add item list and Turn lamp On/Off:                | [Link](./P2/aula5/aula-5b) |
+
+</div>
