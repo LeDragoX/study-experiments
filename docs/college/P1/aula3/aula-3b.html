@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+<head>
+  <title>Tabelas [table] [caption] [tr] [th] [td]</title>
+  <meta charset="utf-8">
+  <meta name="keywords" content="HTML, Tabelas, Células">
+  <meta name="description" content="Aula 3">
+  <meta name="author" content="Plínio Larrubia">
+</head>
+<body>
+  <h1>Célula com 2 colunas</h1>
+
+  <table border="1">
+    <tr>
+      <th>Nome</th>
+      <th colspan="2">Telefone</th>
+      <tr>
+        <td>José das Colves</td>
+        <td>(22) 2728-6677</td>
+        <td>(22) 2728-6677</td>
+      </tr>
+    </tr>
+  </table>
+
+  <br><br>
+
+  <h1>Célula com 2 linhas</h1>
+
+  <table border="1">
+    <tr>
+      <th>Nome:</th>
+      <td>José das Colves</td>
+      <tr>
+        <th rowspan="2">Telefone:</th>
+        <td>(22) 2728-6677</td>
+        <tr>
+          <td>(22) 2728-6677</td>
+        </tr>
+      </tr>
+    </tr>
+  </table>
+
+  <br><br>
+
+  <h1>Tabela com Legenda</h1>
+
+  <table border="1">
+    <caption>Total de despesas por mês</caption>
+    <tr>
+      <th>Mês</th>
+      <th>Total</th>
+      <tr>
+        <td>Janeiro</td>
+        <td>R$ 1.500,00</td>
+        <tr>
+          <td>Fevereiro</td>
+          <td>R$ 1.470,00</td>
+        </tr>
+      </tr>
+    </tr>
+  </table>
+</body>
+
+</html>

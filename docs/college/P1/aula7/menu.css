@@ -1,0 +1,57 @@
+ul{
+  padding: 0px 0px 0px 30%; /* Espaço ocupado pelo elemento elemento */
+  margin: 0px 0px 0px 0px; /* Onde começa o elemento da página */
+
+  list-style: none; /* Retira as bolinhas de marcação da lista */
+  /*background-color: lightblue;*/
+
+  width: 100%; /* Largura */
+  height: 75px; /* Altura */
+  position: absolute;
+}
+
+ul li{
+  font-size: 30px; /* Tamanho da fonte */
+  font-family: 'Hind', sans-serif; /* A fonte utilizada no elemento */
+
+  text-align: left; /* posição do texto dentro do elemento */
+  text-decoration: none; /* forma de destaque do texto */
+
+  /*background-color: lightgreen;*/
+  display: inline-block;
+
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+
+  width: 135px;
+  height: 76px;
+
+  position: relative;
+}
+
+ul li a{
+  padding: 10px 0px 10px 0px;
+
+  color: rgb(40, 40, 40);
+
+  text-align: center;
+  text-decoration: none;
+
+  display: block; /* Ocupa o espaço inteiro do li */
+
+  width: 130px;
+  height: 50px;
+  background: rgb(240, 240, 240);
+
+  position: relative;
+
+  border-style:  solid;
+  border-color: rgb(220,220,220); /* Cor da borda do elemento */
+  border-width: 1.5px; /* Tamanhho da borda do elemento */
+}
+
+ul li a:hover{
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: rgb(220, 220, 220); /* Cor de fundo do elemento */
+}
