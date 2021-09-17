@@ -1,12 +1,14 @@
 function load() {
   document.getElementById("luz").addEventListener("click", luz);
-  document.getElementById("item").addEventListener("submit", addItem)
+  document.getElementById("item").addEventListener("submit", addItem);
 }
 
 function addItem(e) {
   e.preventDefault();
-  li = document.createElement('li');
-  li.appendChild(document.createTextNode(document.getElementById("texto").value));
+  li = document.createElement("li");
+  li.appendChild(
+    document.createTextNode(document.getElementById("texto").value)
+  );
   document.getElementById("lista").appendChild(li);
 }
 var acesa = false;

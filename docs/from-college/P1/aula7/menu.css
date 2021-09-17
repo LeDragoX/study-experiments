@@ -1,4 +1,4 @@
-ul{
+ul {
   padding: 0px 0px 0px 30%; /* Espaço ocupado pelo elemento elemento */
   margin: 0px 0px 0px 0px; /* Onde começa o elemento da página */
 
@@ -10,9 +10,9 @@ ul{
   position: absolute;
 }
 
-ul li{
+ul li {
   font-size: 30px; /* Tamanho da fonte */
-  font-family: 'Hind', sans-serif; /* A fonte utilizada no elemento */
+  font-family: "Hind", sans-serif; /* A fonte utilizada no elemento */
 
   text-align: left; /* posição do texto dentro do elemento */
   text-decoration: none; /* forma de destaque do texto */
@@ -29,7 +29,7 @@ ul li{
   position: relative;
 }
 
-ul li a{
+ul li a {
   padding: 10px 0px 10px 0px;
 
   color: rgb(40, 40, 40);
@@ -45,12 +45,12 @@ ul li a{
 
   position: relative;
 
-  border-style:  solid;
-  border-color: rgb(220,220,220); /* Cor da borda do elemento */
+  border-style: solid;
+  border-color: rgb(220, 220, 220); /* Cor da borda do elemento */
   border-width: 1.5px; /* Tamanhho da borda do elemento */
 }
 
-ul li a:hover{
+ul li a:hover {
   font-weight: bold;
   text-decoration: underline;
   background-color: rgb(220, 220, 220); /* Cor de fundo do elemento */

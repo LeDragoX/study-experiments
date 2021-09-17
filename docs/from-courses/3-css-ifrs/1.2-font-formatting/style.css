@@ -13,40 +13,40 @@ Absolute:
 */
 
 .inferior {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .superior {
-    text-decoration: overline;
+  text-decoration: overline;
 }
 
 .center {
-    text-decoration: line-through;
+  text-decoration: line-through;
 }
 
 .blink {
-    /* Doesn't work */
-    text-decoration: blink;
+  /* Doesn't work */
+  text-decoration: blink;
 }
 
 h1 {
-    font-family: sans-serif;
-    font-size: 18pt;
-    font-weight: bold;
-    text-shadow: blue 5px 6px 2px;
-    text-transform: capitalize;
+  font-family: sans-serif;
+  font-size: 18pt;
+  font-weight: bold;
+  text-shadow: blue 5px 6px 2px;
+  text-transform: capitalize;
 }
 
 p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12pt;
-    text-align: justify;
-    text-indent: 30pt;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+  text-align: justify;
+  text-indent: 30pt;
 }
 
 p.special {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12pt;
-    letter-spacing: 0.5em;
-    text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+  letter-spacing: 0.5em;
+  text-align: justify;
 }

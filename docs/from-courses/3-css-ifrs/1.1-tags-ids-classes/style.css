@@ -1,28 +1,28 @@
 /* Change the HTML body completely */
 body {
-    color: royalblue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16pt;
-    font-weight: bold;
+  color: royalblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16pt;
+  font-weight: bold;
 }
 
 /* Change the paragraph only */
 p {
-    font-size: 12pt;
+  font-size: 12pt;
 }
 
 /* # for IDs */
 #id1 {
-    font-size: 24pt;
-    font-style: italic;
+  font-size: 24pt;
+  font-style: italic;
 }
 
 /* . for Classes */
 .class1 {
-    font-size: 10pt;
-    font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  font-family: Arial, Helvetica, sans-serif;
 }
 /* Change the paragraphs with the 'class1' Class */
 p.class1 {
-    color: red;
+  color: red;
 }
