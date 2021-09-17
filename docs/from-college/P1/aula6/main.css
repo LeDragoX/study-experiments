@@ -29,7 +29,8 @@ h2 {
   border-radius: 150px 10px 150px 10px;
   -moz-border-radius: 150px 10px 150px 10px;
   -webkit-border-radius: 150px 10px 150px 10px;
-  border: 8px solid #000000;
+  border: 8px solid #ffffff;
+  color: #ffffff;
 }
 
 p {
@@ -38,6 +39,9 @@ p {
   text-transform: capitalize;
   font-family: "Poppins", sans-serif;
   font-size: 110%;
+
+  background-color: rgba(50, 50, 50, 0.5);
+  border-radius: 5% 5% 5% 5%;
 }
 
 .azul {
@@ -65,17 +69,17 @@ p {
 }
 
 h1::after {
-  display: block;
   content: url(https://vignette.wikia.nocookie.net/grandchase/images/7/7e/Astarothjr.gif/revision/latest?cb=20120608154303&path-prefix=pt-br);
+  display: block;
 }
 
 p:hover {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .verde::after {
-  display: block;
   content: url(https://vignette.wikia.nocookie.net/grandchase/images/9/90/Provocar_azin.gif/revision/latest?cb=20121113233139&path-prefix=pt-br);
+  display: block;
 }
 
 .cinza:focus {
@@ -83,6 +87,6 @@ p:hover {
 }
 
 .amarelo::after {
-  display: block;
   content: url(https://i.imgur.com/MdjIKZS.gif);
+  display: block;
 }
