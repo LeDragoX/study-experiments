@@ -1,13 +1,13 @@
 # Links to all pages
 
-## College
+## Codes from College
 
-- College: [>> LINK <<](https://ledragox.github.io/from-college)
+- College: [>> LINK <<](./from-college)
 
-## Courses
+## Codes from Web Courses
 
-- Courses: [>> LINK <<](https://ledragox.github.io/from-courses)
+- Courses: [>> LINK <<](./from-courses)
 
-## Events
+## Codes from Events
 
-- Events: [>> LINK <<](https://ledragox.github.io/from-events)
+- Events: [>> LINK <<](./from-events)
