@@ -1,6 +1,6 @@
 # Links to all pages
 
-## Codes from College
+## 🌟 Codes from College
 
 - College: [>> LINK <<](./from-college)
 
@@ -8,6 +8,6 @@
 
 - Courses: [>> LINK <<](./from-courses)
 
-## Codes from Events
+## 🌟 Codes from Events
 
 - Events: [>> LINK <<](./from-events)
