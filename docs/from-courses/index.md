@@ -1,5 +1,3 @@
-<div align="center">
-
 # Codes from Web Courses
 
 ## HTML Intro (IFRS) - HTML
@@ -17,5 +15,3 @@
 ## JavaScript (IFRS) - HTML & JS
 
 [>> Link <<](./4-javascript-ifrs/)
-
-</div>

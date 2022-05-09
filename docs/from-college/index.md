@@ -1,5 +1,3 @@
-<div align="center">
-
 # Codes from College
 
 ## College P1 - HTML & CSS
@@ -31,5 +29,3 @@
 | 4.2 Show typed text:                                   | [>> Link <<](./P2/aula4/aula-4b) |
 | 5.1 Hide and Show Content:                             |    [>> Link <<](./P2/aula5/)     |
 | 5.2 Add item list and Turn lamp On/Off:                | [>> Link <<](./P2/aula5/aula-5b) |
-
-</div>

@@ -1,5 +1,3 @@
-<div align="center">
-
 # Links to all pages
 
 ## 🌟 Codes from College
@@ -13,5 +11,3 @@
 ## 🌟 Codes from Events
 
 [>> LINK <<](./from-events)
-
-</div>
