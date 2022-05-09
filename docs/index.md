@@ -1,13 +1,17 @@
+<div align="center">
+
 # Links to all pages
 
 ## 🌟 Codes from College
 
-- College: [>> LINK <<](./from-college)
+[>> LINK <<](./from-college)
 
 ## Codes from Web Courses
 
-- Courses: [>> LINK <<](./from-courses)
+[>> LINK <<](./from-courses)
 
 ## 🌟 Codes from Events
 
-- Events: [>> LINK <<](./from-events)
+[>> LINK <<](./from-events)
+
+</div>
