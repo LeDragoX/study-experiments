@@ -2,12 +2,16 @@
 
 ## 🌟 Codes from College
 
-[>> LINK <<](./from-college)
+[>> LINK <<](./from-college/)
 
 ## Codes from Web Courses
 
-[>> LINK <<](./from-courses)
+[>> LINK <<](./from-courses/)
 
 ## 🌟 Codes from Events
 
-[>> LINK <<](./from-events)
+[>> LINK <<](./from-events/)
+
+## Personal Projects (Web)
+
+[>> LINK <<](./from-myself/)
