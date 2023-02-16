@@ -32,4 +32,4 @@ gem install solargraph
 
 ## License
 
-Check License file [here](LICENSE)
+Check License file [HERE](/LICENSE)
