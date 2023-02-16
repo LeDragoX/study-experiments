@@ -22,4 +22,4 @@ The beginning of GOOD programming practices.
 
 Still something small.
 
-- [Personal](./from-myself/)
+- [Personal](./personal-projects/)
