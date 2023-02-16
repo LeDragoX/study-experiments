@@ -11,3 +11,7 @@ The Web scope will have snippets from codes HTML/CSS/JS that i've learned to do 
 - **All the static WEB pages are accessible from:** <https://ledragox.github.io/study-experiments/>
 - **Python:** [src/python/README.md](src/python/)
 - **Ruby:** [src/ruby/README.md](src/ruby/)
+
+## License
+
+The entire REPO is under this [license](/LICENSE).
