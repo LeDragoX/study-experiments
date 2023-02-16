@@ -1,6 +1,6 @@
 # Don't pass Audio and Video files from Courses*-
-/docs/from-courses/**/*.mp3
-/docs/from-courses/**/*.mp4
+**/from-courses/**/*.mp3
+**/from-courses/**/*.mp4
 
 # Ignore WSL2 moved files
 **.Identifier
